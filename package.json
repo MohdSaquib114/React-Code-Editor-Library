@@ -1,5 +1,5 @@
 {
-  "name": "slnix-code-editor",
+  "name": "@msm/react-code-editor",
   "version": "1.0.0",
   "description": "",
   "main": "dist/cjs/index.js",
