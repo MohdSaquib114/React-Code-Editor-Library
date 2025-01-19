@@ -1,0 +1,13 @@
+export const KeyCodes = {
+    KEYCODE_Y: 89,
+    KEYCODE_Z: 90,
+    KEYCODE_M: 77,
+    KEYCODE_PARENS: 57,
+    KEYCODE_BRACKETS: 219,
+    KEYCODE_QUOTE: 222,
+    KEYCODE_BACK_QUOTE: 192,
+    ARROW_UP: 'ArrowUp',
+    ARROW_DOWN: 'ArrowDown',
+    HISTORY_LIMIT: 100,
+    HISTORY_TIME_GAP: 3000
+};
