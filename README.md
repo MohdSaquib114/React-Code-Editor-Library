@@ -4,7 +4,7 @@ A lightweight, controlled code editor component for React. Syntax highlighting v
 [highlight.js](https://highlightjs.org/), auto-indentation, undo/redo history, and
 cross-platform keybindings — all through a single component with no configuration file.
 
-**[Live demo →]([https://github.com/MohdSaquib114/React-Code-Editor-Library](https://react-code-editor-phi.vercel.app/))** 
+**[Live demo →](https://react-code-editor-phi.vercel.app/)** 
 
 ## Features
 - **Syntax highlighting** — real-time, powered by [highlight.js](https://highlightjs.org/).
