@@ -1,35 +1,30 @@
 # react-code-editor-library
 
-A powerful, lightweight, and customizable code editor component built in React. This editor supports syntax highlighting, indentation, undo/redo functionality, and more for a smooth coding experience.
+A lightweight, controlled code editor component for React. Syntax highlighting via
+[highlight.js](https://highlightjs.org/), auto-indentation, undo/redo history, and
+cross-platform keybindings — all through a single component with no configuration file.
+
+**[Live demo →]([https://github.com/MohdSaquib114/React-Code-Editor-Library](https://react-code-editor-phi.vercel.app/))** 
 
 ## Features
-- **Syntax Highlighting**:  
-  Leveraging the [Highlight.js](https://highlightjs.org/) library, this component includes real-time syntax highlighting for code, enhancing readability and user experience.
-
-- **Auto-Indentation**:  
-  Customizable indentation for various coding styles with support for spaces or tabs.
-
-- **Undo/Redo History**:  
-  Built-in undo/redo functionality to easily navigate through changes.
-
-- **Cross-Platform Keybindings**:  
-  Keybindings for common actions that work across different platforms (Windows, Mac, Linux).
+- **Syntax highlighting** — real-time, powered by [highlight.js](https://highlightjs.org/).
+- **Auto-indentation** — customizable, with support for spaces or tabs.
+- **Undo/redo history** — keystrokes are grouped intelligently, so undo steps back
+  through intent rather than individual characters.
+- **Cross-platform keybindings** — Tab/Shift+Tab to indent or outdent, Alt+↑/↓ to move a
+  line, Shift+Alt+↑/↓ to duplicate it, Ctrl+/ (⌘+/ on Mac) to toggle a line comment, and
+  auto-closing pairs for `()`, `[]`, `{}`, `""`, `''`, and `` `` ``.
+- **Fully controlled** — `value` and `onValueChange` are the entire contract, so state,
+  validation, and persistence stay in your app.
+- **React 18 and 19** — works with either.
 
 ## Installation
 
-<!-- 1. Install the necessary dependencies:
-
-   ```bash
-   npm install highlight.js
-   ```
-
-2. Copy the `CodeEditor` component and its dependencies into your project structure.
-
-3. Import the `CodeEditor` component wherever you'd like to use it:
-
-   ```javascript
-   import CodeEditor from './path-to-CodeEditor';
-   ``` -->
+## Installation
+ 
+```bash
+npm install @msm_saq/react-code-editor
+```
 
 
 
